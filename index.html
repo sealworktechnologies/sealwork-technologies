@@ -5,550 +5,1199 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>SEALWORK TECHNOLOGIES | Premium Rubber Moulding Manufacturer</title>
+<title>SEALWORK TECHNOLOGIES | Rubber Moulding & Industrial Rubber Solutions</title>
 
-<meta name="description" content="SEALWORK TECHNOLOGIES specializes in precision rubber moulding, industrial rubber components and custom rubber manufacturing solutions.">
-<meta name="keywords" content="Rubber Moulding Manufacturer, Rubber Components, Industrial Rubber Parts, Rubber Moulding India, Sealwork Technologies">
+<meta name="description" content="SEALWORK TECHNOLOGIES - Rubber moulding manufacturer specializing in industrial rubber components, custom moulded parts, seals, gaskets and engineering solutions.">
+<meta name="keywords" content="Rubber Moulding, Rubber Manufacturer India, EPDM Rubber, NBR Rubber, Silicone Rubber, Rubber Gaskets, O Rings, Rubber Seals, Industrial Rubber Components">
 <meta name="robots" content="index, follow">
-<meta name="theme-color" content="#101b2a">
+<meta name="theme-color" content="#101b2b">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
 :root {
-  --navy:#101b2a;
-  --gold:#c69a62;
-  --cream:#f5f4ef;
-  --white:#ffffff;
-  --grey:#687583;
-  --display:'Manrope',sans-serif;
-  --body:'DM Sans',sans-serif;
+--navy:#101b2b;
+--navy2:#17283c;
+--gold:#c89c63;
+--gold2:#e2bc88;
+--white:#ffffff;
+--light:#f4f4f0;
+--grey:#6d7986;
+--line:#dfe2e3;
+--heading:'Manrope',sans-serif;
+--body:'DM Sans',sans-serif;
 }
 
 * {
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 html {
-  scroll-behavior:smooth;
+scroll-behavior:smooth;
+scroll-padding-top:90px;
 }
 
 body {
-  font-family:var(--body);
-  background:var(--cream);
-  color:var(--navy);
+font-family:var(--body);
+color:var(--navy);
+background:#fff;
+overflow-x:hidden;
 }
 
 a {
-  text-decoration:none;
-  color:inherit;
+text-decoration:none;
+color:inherit;
+}
+
+button,input,textarea,select {
+font-family:inherit;
 }
 
 .container {
-  width:90%;
-  max-width:1180px;
-  margin:auto;
+width:90%;
+max-width:1240px;
+margin:auto;
 }
 
-/* NAVIGATION */
+.section {
+padding:110px 0;
+}
 
-header {
-  background:var(--cream);
-  padding:23px 0;
-  position:sticky;
-  top:0;
-  z-index:100;
-  border-bottom:1px solid #dddcd5;
+.eyebrow {
+color:var(--gold);
+font-size:11px;
+font-weight:800;
+letter-spacing:3px;
+text-transform:uppercase;
+margin-bottom:20px;
+}
+
+.section-title {
+font-family:var(--heading);
+font-size:clamp(35px,5vw,58px);
+font-weight:700;
+letter-spacing:-2px;
+line-height:1.15;
+}
+
+.section-title span {
+color:var(--gold);
+}
+
+.section-description {
+font-size:14px;
+line-height:1.9;
+color:var(--grey);
+max-width:650px;
+margin-top:20px;
+}
+
+.gold-line {
+width:55px;
+height:3px;
+background:var(--gold);
+margin:25px 0;
+}
+
+.btn {
+display:inline-flex;
+align-items:center;
+justify-content:center;
+gap:18px;
+padding:17px 25px;
+font-size:11px;
+font-weight:800;
+letter-spacing:1px;
+text-transform:uppercase;
+transition:.35s;
+border:1px solid transparent;
+cursor:pointer;
+}
+
+.btn-gold {
+background:var(--gold);
+color:var(--navy);
+}
+
+.btn-gold:hover {
+background:white;
+transform:translateY(-4px);
+box-shadow:0 12px 30px #0002;
+}
+
+.btn-outline {
+border-color:#ffffff70;
+color:white;
+}
+
+.btn-outline:hover {
+background:white;
+color:var(--navy);
+}
+
+/* TOP BAR */
+
+.topbar {
+background:#091321;
+color:#bac3cd;
+font-size:10px;
+letter-spacing:1px;
+padding:11px 0;
+}
+
+.topbar-inner {
+display:flex;
+justify-content:space-between;
+gap:20px;
+}
+
+.topbar a:hover {
+color:var(--gold2);
+}
+
+/* HEADER */
+
+.header {
+position:sticky;
+top:0;
+z-index:1000;
+background:rgba(255,255,255,.97);
+backdrop-filter:blur(15px);
+box-shadow:0 4px 25px #00000008;
 }
 
 .navbar {
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
+height:88px;
+display:flex;
+align-items:center;
+justify-content:space-between;
 }
 
 .logo {
-  font-family:var(--display);
-  font-size:19px;
-  font-weight:800;
-  letter-spacing:1px;
+display:flex;
+align-items:center;
+gap:12px;
 }
 
-.logo span {
-  color:var(--gold);
+.logo-symbol {
+width:42px;
+height:42px;
+border:2px solid var(--gold);
+display:grid;
+place-items:center;
+color:var(--gold);
+font-family:var(--heading);
+font-weight:800;
+font-size:20px;
 }
 
-.logo small {
-  display:block;
-  font-size:9px;
-  letter-spacing:4px;
-  color:#777;
-  margin-top:5px;
+.logo-text {
+font-family:var(--heading);
+font-size:17px;
+font-weight:800;
+letter-spacing:.5px;
 }
 
-nav {
-  display:flex;
-  align-items:center;
-  gap:32px;
+.logo-text span {
+color:var(--gold);
 }
 
-nav a {
-  font-size:12px;
-  font-weight:600;
-  transition:.3s;
+.logo-text small {
+display:block;
+font-size:8px;
+letter-spacing:3px;
+color:#7c8791;
+margin-top:4px;
 }
 
-nav a:hover {
-  color:var(--gold);
+.nav-links {
+display:flex;
+align-items:center;
+gap:27px;
 }
 
-.nav-button {
-  background:var(--navy);
-  color:white;
-  padding:14px 22px;
+.nav-links a {
+font-size:11px;
+font-weight:700;
+color:#364353;
+transition:.3s;
 }
 
-.menu-btn {
-  display:none;
-  border:0;
-  background:none;
-  font-size:26px;
-  cursor:pointer;
+.nav-links a:hover {
+color:var(--gold);
+}
+
+.nav-quote {
+background:var(--navy);
+color:white!important;
+padding:15px 19px;
+}
+
+.nav-quote:hover {
+background:var(--gold);
+color:var(--navy)!important;
+}
+
+.menu-toggle {
+display:none;
+background:none;
+border:0;
+font-size:27px;
+cursor:pointer;
 }
 
 /* HERO */
 
 .hero {
-  background:var(--navy);
-  color:white;
-  min-height:650px;
-  display:flex;
-  align-items:center;
-  position:relative;
-  overflow:hidden;
+min-height:690px;
+position:relative;
+background:var(--navy);
+color:white;
+display:flex;
+align-items:center;
+overflow:hidden;
 }
 
-.hero:after {
-  content:"";
-  position:absolute;
-  width:500px;
-  height:500px;
-  border:1px solid #ffffff18;
-  border-radius:50%;
-  right:5%;
-  top:10%;
-  box-shadow:
-    0 0 0 45px #ffffff08,
-    0 0 0 100px #ffffff05;
+.hero-bg {
+position:absolute;
+inset:0;
+background:
+linear-gradient(90deg,#101b2b 0%,#101b2b 43%,#101b2bba 100%),
+url("https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1900&q=85") center/cover;
+}
+
+.hero-grid {
+position:absolute;
+inset:0;
+background-image:
+linear-gradient(#ffffff08 1px,transparent 1px),
+linear-gradient(90deg,#ffffff08 1px,transparent 1px);
+background-size:65px 65px;
+mask-image:linear-gradient(90deg,black,transparent);
 }
 
 .hero-content {
-  position:relative;
-  z-index:2;
-  padding:90px 0;
+position:relative;
+z-index:2;
+padding:105px 0;
+max-width:750px;
 }
 
-.eyebrow {
-  color:var(--gold);
-  letter-spacing:4px;
-  font-size:11px;
-  font-weight:700;
-  margin-bottom:30px;
+.hero-tag {
+display:inline-flex;
+align-items:center;
+gap:12px;
+font-size:10px;
+letter-spacing:3px;
+font-weight:800;
+color:var(--gold2);
+margin-bottom:30px;
+}
+
+.hero-tag:before {
+content:"";
+width:35px;
+height:2px;
+background:var(--gold);
 }
 
 .hero h1 {
-  font-family:var(--display);
-  font-size:clamp(48px,7vw,83px);
-  line-height:1.08;
-  font-weight:700;
-  letter-spacing:-4px;
-  max-width:750px;
+font-family:var(--heading);
+font-size:clamp(48px,7vw,86px);
+line-height:1.08;
+letter-spacing:-4px;
+font-weight:800;
 }
 
 .hero h1 span {
-  color:var(--gold);
+color:var(--gold2);
 }
 
-.hero p {
-  color:#b7c0ca;
-  font-size:15px;
-  line-height:1.9;
-  max-width:520px;
-  margin:25px 0 35px;
+.hero-content>p {
+font-size:15px;
+line-height:1.9;
+color:#bdc8d3;
+max-width:570px;
+margin:28px 0 35px;
 }
 
-.primary-btn {
-  display:inline-block;
-  background:var(--gold);
-  color:var(--navy);
-  padding:17px 28px;
-  font-size:12px;
-  font-weight:700;
-  transition:.3s;
-}
-
-.primary-btn:hover {
-  background:white;
-  transform:translateY(-3px);
-}
-
-.secondary-btn {
-  display:inline-block;
-  margin-left:25px;
-  font-size:12px;
-  color:white;
-  font-weight:600;
+.hero-buttons {
+display:flex;
+gap:15px;
+flex-wrap:wrap;
 }
 
 .hero-bottom {
-  margin-top:95px;
-  color:#8e9ba9;
-  font-size:10px;
-  letter-spacing:3px;
+display:flex;
+gap:40px;
+margin-top:85px;
+padding-top:25px;
+border-top:1px solid #ffffff2b;
+flex-wrap:wrap;
 }
 
-/* INTRO */
-
-.intro {
-  padding:110px 0;
+.hero-bottom div {
+font-size:10px;
+letter-spacing:1px;
+color:#aeb9c4;
 }
 
-.section-label {
-  color:var(--gold);
-  font-size:11px;
-  font-weight:700;
-  letter-spacing:3px;
-  margin-bottom:22px;
+.hero-bottom strong {
+display:block;
+font-family:var(--heading);
+font-size:14px;
+color:white;
+margin-bottom:5px;
 }
 
-.intro-grid {
-  display:grid;
-  grid-template-columns:1fr 1.6fr;
-  gap:80px;
+/* INTRO STRIP */
+
+.feature-strip {
+background:var(--gold);
+padding:22px 0;
 }
 
-h2 {
-  font-family:var(--display);
-  font-size:clamp(38px,5vw,57px);
-  line-height:1.15;
-  letter-spacing:-2px;
+.feature-strip-inner {
+display:flex;
+justify-content:space-between;
+gap:20px;
+flex-wrap:wrap;
 }
 
-h2 span {
-  color:var(--gold);
+.feature-strip span {
+font-size:11px;
+font-weight:800;
+letter-spacing:1px;
+color:var(--navy);
 }
 
-.intro-text {
-  color:var(--grey);
-  font-size:14px;
-  line-height:2;
-  margin-top:20px;
+/* ABOUT */
+
+.about-grid {
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:75px;
+align-items:center;
+}
+
+.about-image {
+position:relative;
+min-height:490px;
+background:
+linear-gradient(0deg,#101b2b88,transparent),
+url("https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=1000&q=85") center/cover;
+}
+
+.about-image-box {
+position:absolute;
+bottom:-25px;
+right:-25px;
+background:var(--navy);
+color:white;
+padding:28px 32px;
+width:220px;
+}
+
+.about-image-box strong {
+font-family:var(--heading);
+font-size:22px;
+color:var(--gold);
+display:block;
+margin-bottom:8px;
+}
+
+.about-image-box span {
+font-size:11px;
+line-height:1.6;
+color:#c2ccd6;
+}
+
+.about-copy p {
+font-size:13px;
+color:var(--grey);
+line-height:2;
+margin-top:17px;
+}
+
+.about-points {
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:15px;
+margin-top:30px;
+}
+
+.about-point {
+border-left:3px solid var(--gold);
+padding:10px 15px;
+font-size:12px;
+font-weight:700;
+}
+
+/* MATERIALS */
+
+.materials {
+background:var(--light);
+}
+
+.center-heading {
+text-align:center;
+max-width:750px;
+margin:0 auto 55px;
+}
+
+.center-heading .section-description {
+margin-left:auto;
+margin-right:auto;
+}
+
+.material-grid {
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:17px;
+}
+
+.material-card {
+background:white;
+padding:28px;
+border:1px solid #e7e8e4;
+transition:.35s;
+position:relative;
+overflow:hidden;
+}
+
+.material-card:after {
+content:"";
+position:absolute;
+bottom:0;
+left:0;
+width:0;
+height:3px;
+background:var(--gold);
+transition:.35s;
+}
+
+.material-card:hover {
+transform:translateY(-7px);
+box-shadow:0 20px 45px #101b2b12;
+}
+
+.material-card:hover:after {
+width:100%;
+}
+
+.material-code {
+font-size:10px;
+letter-spacing:2px;
+color:var(--gold);
+font-weight:800;
+}
+
+.material-card h3 {
+font-family:var(--heading);
+font-size:20px;
+margin:20px 0 12px;
+}
+
+.material-card p {
+font-size:12px;
+line-height:1.9;
+color:var(--grey);
+}
+
+.material-note {
+text-align:center;
+font-size:11px;
+color:#7d8790;
+margin-top:30px;
+}
+
+/* INDUSTRIES */
+
+.industries {
+background:var(--navy);
+color:white;
+}
+
+.industries .section-title {
+color:white;
+}
+
+.industry-grid {
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:1px;
+background:#ffffff20;
+margin-top:55px;
+border:1px solid #ffffff20;
+}
+
+.industry-card {
+background:var(--navy);
+padding:35px 25px;
+min-height:180px;
+transition:.3s;
+}
+
+.industry-card:hover {
+background:#20364e;
+}
+
+.industry-icon {
+font-size:28px;
+color:var(--gold);
+margin-bottom:22px;
+}
+
+.industry-card h3 {
+font-family:var(--heading);
+font-size:15px;
+margin-bottom:10px;
+}
+
+.industry-card p {
+font-size:11px;
+line-height:1.7;
+color:#aeb9c5;
+}
+
+/* PRODUCTS */
+
+.products {
+background:#fff;
+}
+
+.product-grid {
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:22px;
+margin-top:50px;
+}
+
+.product-card {
+border:1px solid var(--line);
+background:white;
+transition:.35s;
+overflow:hidden;
+}
+
+.product-card:hover {
+transform:translateY(-8px);
+box-shadow:0 20px 45px #101b2b15;
+}
+
+.product-image {
+height:190px;
+background:linear-gradient(135deg,#e6e9e9,#b9c1c5);
+display:grid;
+place-items:center;
+font-size:65px;
+color:#25364a;
+}
+
+.product-content {
+padding:25px;
+}
+
+.product-content h3 {
+font-family:var(--heading);
+font-size:17px;
+margin-bottom:10px;
+}
+
+.product-content p {
+font-size:12px;
+line-height:1.8;
+color:var(--grey);
+}
+
+.product-content a {
+display:inline-block;
+font-size:10px;
+font-weight:800;
+color:#a77b45;
+margin-top:18px;
+letter-spacing:1px;
 }
 
 /* CAPABILITIES */
 
 .capabilities {
-  background:#e9e8e2;
-  padding:105px 0;
+background:#edf0f1;
 }
 
-.section-heading {
-  display:flex;
-  justify-content:space-between;
-  align-items:end;
-  gap:30px;
-  margin-bottom:50px;
+.capability-grid {
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:55px;
+align-items:center;
 }
 
-.section-heading p {
-  max-width:320px;
-  color:var(--grey);
-  font-size:13px;
-  line-height:1.8;
+.capability-image {
+min-height:440px;
+background:
+linear-gradient(0deg,#101b2b44,transparent),
+url("https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1100&q=85") center/cover;
 }
 
-.cards {
-  display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:20px;
+.capability-list {
+margin-top:35px;
 }
 
-.card {
-  background:white;
-  padding:30px;
-  min-height:340px;
-  transition:.3s;
-  border-bottom:3px solid transparent;
+.capability-item {
+display:flex;
+gap:20px;
+padding:19px 0;
+border-bottom:1px solid #d5dadd;
 }
 
-.card:hover {
-  transform:translateY(-8px);
-  border-color:var(--gold);
+.capability-item span {
+color:var(--gold);
+font-weight:800;
+font-size:12px;
 }
 
-.card-number {
-  font-size:12px;
-  color:var(--gold);
-  font-weight:700;
+.capability-item h3 {
+font-family:var(--heading);
+font-size:15px;
+margin-bottom:7px;
 }
 
-.card-icon {
-  height:150px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-size:65px;
-  color:var(--gold);
+.capability-item p {
+font-size:11px;
+line-height:1.7;
+color:var(--grey);
 }
 
-.card h3 {
-  font-family:var(--display);
-  font-size:19px;
-  margin-bottom:12px;
+/* WHY US */
+
+.why-us {
+background:white;
 }
 
-.card p {
-  color:var(--grey);
-  font-size:12px;
-  line-height:1.8;
+.why-grid {
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+margin-top:50px;
 }
 
-/* APPROACH */
-
-.approach {
-  background:var(--navy);
-  color:white;
-  padding:110px 0;
+.why-card {
+padding:28px 20px;
+border-top:3px solid var(--gold);
+background:var(--light);
+transition:.3s;
 }
 
-.approach-grid {
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:80px;
+.why-card:hover {
+transform:translateY(-7px);
+background:var(--navy);
+color:white;
 }
 
-.approach h2 {
-  margin-top:20px;
+.why-card span {
+font-size:12px;
+font-weight:800;
+color:var(--gold);
 }
 
-.approach-intro {
-  color:#b6c0cb;
-  font-size:14px;
-  line-height:1.9;
-  margin-bottom:30px;
+.why-card h3 {
+font-family:var(--heading);
+font-size:16px;
+margin:20px 0 10px;
 }
 
-.point {
-  border-top:1px solid #344354;
-  padding:22px 0;
-  display:flex;
-  gap:22px;
+.why-card p {
+font-size:11px;
+line-height:1.8;
+color:var(--grey);
 }
 
-.point span {
-  color:var(--gold);
-  font-size:12px;
-  font-weight:700;
+.why-card:hover p {
+color:#c3ccd4;
 }
 
-.point h3 {
-  font-family:var(--display);
-  font-size:15px;
-  margin-bottom:8px;
+/* PROCESS */
+
+.process {
+background:var(--light);
 }
 
-.point p {
-  color:#aab6c2;
-  font-size:12px;
-  line-height:1.7;
+.process-grid {
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+margin-top:50px;
+}
+
+.process-card {
+background:white;
+padding:30px 24px;
+position:relative;
+}
+
+.process-card span {
+font-size:28px;
+font-family:var(--heading);
+font-weight:800;
+color:#d8b78d;
+}
+
+.process-card h3 {
+font-family:var(--heading);
+font-size:16px;
+margin:18px 0 10px;
+}
+
+.process-card p {
+font-size:11px;
+line-height:1.8;
+color:var(--grey);
 }
 
 /* CONTACT */
 
 .contact {
-  padding:110px 0;
+background:var(--navy);
+color:white;
 }
 
 .contact-grid {
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:80px;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:80px;
 }
 
-.contact-info {
-  color:var(--grey);
-  line-height:1.9;
-  font-size:14px;
-  margin-top:22px;
+.contact .section-title {
+color:white;
 }
 
-.contact-link {
-  display:block;
-  padding:20px 0;
-  border-bottom:1px solid #d9d9d4;
-  margin-top:15px;
-  font-size:14px;
-  font-weight:600;
+.contact-description {
+color:#b8c3cf;
+font-size:13px;
+line-height:1.9;
+margin-top:20px;
 }
 
-.contact-link small {
-  display:block;
-  color:var(--gold);
-  font-size:10px;
-  letter-spacing:2px;
-  margin-bottom:8px;
+.contact-detail {
+padding:22px 0;
+border-bottom:1px solid #ffffff25;
+}
+
+.contact-detail small {
+display:block;
+color:var(--gold);
+font-size:10px;
+letter-spacing:2px;
+margin-bottom:10px;
+}
+
+.contact-detail a {
+font-size:14px;
+font-weight:600;
 }
 
 .contact-form {
-  background:#e9e8e2;
-  padding:38px;
+background:white;
+color:var(--navy);
+padding:38px;
 }
 
 .contact-form h3 {
-  font-family:var(--display);
-  font-size:22px;
-  margin-bottom:25px;
+font-family:var(--heading);
+font-size:23px;
+margin-bottom:25px;
 }
 
 .contact-form input,
-.contact-form textarea {
-  width:100%;
-  padding:15px;
-  margin-bottom:15px;
-  border:1px solid #d1d1ca;
-  background:#f8f7f3;
-  font-family:var(--body);
-  font-size:13px;
-  outline:none;
+.contact-form textarea,
+.contact-form select {
+width:100%;
+padding:14px;
+border:1px solid #dce0e2;
+background:#fafafa;
+margin-bottom:13px;
+font-size:12px;
+outline:none;
 }
 
 .contact-form input:focus,
-.contact-form textarea:focus {
-  border-color:var(--gold);
+.contact-form textarea:focus,
+.contact-form select:focus {
+border-color:var(--gold);
 }
 
 .contact-form textarea {
-  resize:vertical;
-  min-height:110px;
+min-height:105px;
+resize:vertical;
 }
 
 .contact-form button {
-  width:100%;
-  border:0;
-  cursor:pointer;
-  font-family:var(--body);
+width:100%;
+}
+
+/* CTA */
+
+.cta {
+background:var(--gold);
+padding:55px 0;
+}
+
+.cta-inner {
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:30px;
+}
+
+.cta h2 {
+font-family:var(--heading);
+font-size:clamp(25px,4vw,40px);
+letter-spacing:-1px;
+}
+
+.cta p {
+font-size:12px;
+margin-top:10px;
+}
+
+.cta .btn {
+background:var(--navy);
+color:white;
 }
 
 /* FOOTER */
 
-footer {
-  background:#0b1420;
-  color:#aab5c0;
-  padding:40px 0;
+.footer {
+background:#091321;
+color:#bdc7d1;
+padding:70px 0 25px;
 }
 
-.footer-content {
-  display:flex;
-  justify-content:space-between;
-  gap:25px;
-  flex-wrap:wrap;
+.footer-grid {
+display:grid;
+grid-template-columns:1.5fr 1fr 1fr 1fr;
+gap:40px;
+padding-bottom:45px;
 }
 
-footer p {
-  font-size:10px;
-  letter-spacing:2px;
-  margin-top:20px;
-  color:#7f8c99;
+.footer-brand p {
+font-size:11px;
+line-height:1.9;
+color:#8d9aa7;
+margin-top:20px;
+max-width:280px;
 }
 
-/* MOBILE */
+.footer-col h4 {
+font-size:11px;
+color:var(--gold);
+letter-spacing:2px;
+margin-bottom:20px;
+}
 
-@media(max-width:800px) {
+.footer-col a {
+display:block;
+font-size:11px;
+margin-bottom:13px;
+color:#aeb9c5;
+}
 
-  .menu-btn {
-    display:block;
-  }
+.footer-col a:hover {
+color:var(--gold);
+}
 
-  nav {
-    display:none;
-    position:absolute;
-    top:75px;
-    left:0;
-    width:100%;
-    background:var(--cream);
-    padding:25px;
-    flex-direction:column;
-    align-items:stretch;
-    gap:20px;
-  }
+.footer-bottom {
+border-top:1px solid #ffffff20;
+padding-top:22px;
+display:flex;
+justify-content:space-between;
+gap:20px;
+flex-wrap:wrap;
+font-size:9px;
+letter-spacing:1px;
+color:#7d8996;
+}
 
-  nav.open {
-    display:flex;
-  }
+/* POPUP */
 
-  .hero {
-    min-height:600px;
-  }
+.popup-overlay {
+position:fixed;
+inset:0;
+background:#07111ed9;
+z-index:2000;
+display:none;
+align-items:center;
+justify-content:center;
+padding:20px;
+backdrop-filter:blur(7px);
+}
 
-  .hero h1 {
-    letter-spacing:-2px;
-  }
+.popup-overlay.active {
+display:flex;
+animation:fadeIn .3s ease;
+}
 
-  .hero:after {
-    right:-300px;
-  }
+.popup {
+background:white;
+width:100%;
+max-width:500px;
+padding:40px;
+position:relative;
+animation:popupIn .4s ease;
+}
 
-  .intro-grid,
-  .approach-grid,
-  .contact-grid {
-    grid-template-columns:1fr;
-    gap:35px;
-  }
+.popup-close {
+position:absolute;
+top:15px;
+right:18px;
+font-size:25px;
+background:none;
+border:0;
+cursor:pointer;
+color:#6d7986;
+}
 
-  .cards {
-    grid-template-columns:1fr;
-  }
+.popup h3 {
+font-family:var(--heading);
+font-size:27px;
+margin-bottom:10px;
+}
 
-  .section-heading {
-    display:block;
-  }
+.popup p {
+font-size:12px;
+color:var(--grey);
+line-height:1.8;
+margin-bottom:20px;
+}
 
-  .section-heading p {
-    margin-top:20px;
-  }
+.popup input,
+.popup textarea {
+width:100%;
+padding:13px;
+margin-bottom:12px;
+border:1px solid #dce0e2;
+font-size:12px;
+}
 
-  .contact-form {
-    padding:25px;
-  }
+.popup button.submit {
+width:100%;
+border:0;
+cursor:pointer;
+}
 
-  .hero-bottom {
-    margin-top:65px;
-  }
+/* FLOATING BUTTONS */
+
+.float-contact {
+position:fixed;
+right:23px;
+bottom:25px;
+z-index:900;
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+.float-contact a {
+width:48px;
+height:48px;
+display:grid;
+place-items:center;
+border-radius:50%;
+background:var(--gold);
+color:var(--navy);
+font-size:19px;
+box-shadow:0 8px 25px #0003;
+transition:.3s;
+}
+
+.float-contact a:hover {
+transform:scale(1.12);
+}
+
+/* ANIMATIONS */
+
+.reveal {
+opacity:0;
+transform:translateY(35px);
+transition:opacity .8s ease,transform .8s ease;
+}
+
+.reveal.visible {
+opacity:1;
+transform:translateY(0);
+}
+
+@keyframes fadeIn {
+from {opacity:0}
+to {opacity:1}
+}
+
+@keyframes popupIn {
+from {opacity:0;transform:translateY(25px) scale(.96)}
+to {opacity:1;transform:translateY(0) scale(1)}
+}
+
+/* RESPONSIVE */
+
+@media(max-width:1050px) {
+.nav-links {gap:15px}
+.nav-links a {font-size:10px}
+.industry-grid {grid-template-columns:repeat(2,1fr)}
+.why-grid {grid-template-columns:repeat(2,1fr)}
+.footer-grid {grid-template-columns:repeat(2,1fr)}
+}
+
+@media(max-width:760px) {
+
+.container {width:90%}
+
+.section {padding:75px 0}
+
+.topbar-inner {
+justify-content:center;
+flex-wrap:wrap;
+text-align:center;
+}
+
+.navbar {height:75px}
+
+.menu-toggle {display:block}
+
+.nav-links {
+display:none;
+position:absolute;
+top:75px;
+left:0;
+width:100%;
+background:white;
+padding:25px 5%;
+flex-direction:column;
+align-items:stretch;
+gap:0;
+box-shadow:0 15px 25px #0002;
+}
+
+.nav-links.active {display:flex}
+
+.nav-links a {
+padding:14px 0;
+font-size:12px;
+}
+
+.nav-links .nav-quote {
+padding:15px;
+text-align:center;
+}
+
+.hero {min-height:620px}
+
+.hero h1 {
+font-size:49px;
+letter-spacing:-2px;
+}
+
+.hero-content {padding:85px 0}
+
+.hero-bottom {margin-top:65px;gap:20px}
+
+.feature-strip-inner {
+justify-content:center;
+gap:14px;
+}
+
+.about-grid,
+.capability-grid,
+.contact-grid {
+grid-template-columns:1fr;
+gap:45px;
+}
+
+.about-image {min-height:340px}
+
+.about-image-box {
+right:0;
+bottom:-20px;
+}
+
+.material-grid,
+.product-grid {
+grid-template-columns:1fr;
+}
+
+.industry-grid {
+grid-template-columns:repeat(2,1fr);
+}
+
+.why-grid,
+.process-grid {
+grid-template-columns:1fr 1fr;
+}
+
+.cta-inner {
+align-items:flex-start;
+flex-direction:column;
+}
+
+.footer-grid {
+grid-template-columns:1fr 1fr;
+gap:30px;
+}
+
+.contact-form {padding:25px}
+
+.popup {padding:30px 22px}
+}
+
+@media(max-width:420px) {
+.hero h1 {font-size:42px}
+.hero-buttons {flex-direction:column;align-items:flex-start}
+.industry-grid,.why-grid,.process-grid {grid-template-columns:1fr}
+.footer-grid {grid-template-columns:1fr}
 }
 </style>
 </head>
 
 <body>
 
-<header>
+<!-- TOP BAR -->
+
+<div class="topbar">
+<div class="container topbar-inner">
+<span>PRECISION RUBBER MOULDING & INDUSTRIAL COMPONENTS</span>
+<span>
+<a href="tel:+918149002309">+91 81490 02309</a>
+&nbsp; | &nbsp;
+<a href="mailto:sealworktechnologies@gmail.com">sealworktechnologies@gmail.com</a>
+</span>
+</div>
+</div>
+
+<!-- HEADER -->
+
+<header class="header">
 <div class="container navbar">
 
-<a href="#" class="logo">
+<a href="#home" class="logo">
+<div class="logo-symbol">S</div>
+<div class="logo-text">
 SEALWORK <span>TECHNOLOGIES</span>
 <small>ENGINEERED TO PERFORM</small>
+</div>
 </a>
 
-<button class="menu-btn" onclick="toggleMenu()">☰</button>
+<button class="menu-toggle" onclick="toggleMenu()" aria-label="Open menu">☰</button>
 
-<nav id="navigation">
-<a href="#about">COMPANY</a>
-<a href="#capabilities">CAPABILITIES</a>
-<a href="#approach">OUR APPROACH</a>
-<a href="#contact" class="nav-button">CONTACT US ↗</a>
+<nav class="nav-links" id="navLinks">
+<a href="#home">HOME</a>
+<a href="#about">ABOUT</a>
+<a href="#materials">MATERIALS</a>
+<a href="#industries">INDUSTRIES</a>
+<a href="#products">PRODUCTS</a>
+<a href="#contact" class="nav-quote">GET A QUOTE ↗</a>
 </nav>
 
 </div>
@@ -556,253 +1205,724 @@ SEALWORK <span>TECHNOLOGIES</span>
 
 <!-- HERO -->
 
-<section class="hero">
+<section class="hero" id="home">
+<div class="hero-bg"></div>
+<div class="hero-grid"></div>
+
 <div class="container hero-content">
 
-<div class="eyebrow">PRECISION RUBBER MOULDING SPECIALISTS</div>
+<div class="hero-tag">RUBBER MOULDING & ENGINEERING SOLUTIONS</div>
 
 <h1>
-Precision in every<br>
-<span>rubber component.</span>
+Precision Engineered.<br>
+<span>Performance Driven.</span>
 </h1>
 
 <p>
-Reliable rubber moulded components for demanding industrial applications.
-Built around precision, consistency and a commitment to quality.
+Your industrial rubber components partner. Exploring dependable rubber moulding solutions for demanding applications across industries.
 </p>
 
-<a href="#contact" class="primary-btn">DISCUSS YOUR REQUIREMENT ↗</a>
-
-<a href="#capabilities" class="secondary-btn">EXPLORE MORE ↓</a>
+<div class="hero-buttons">
+<a href="#contact" class="btn btn-gold">DISCUSS YOUR REQUIREMENT ↗</a>
+<a href="#about" class="btn btn-outline">EXPLORE OUR COMPANY</a>
+</div>
 
 <div class="hero-bottom">
-ENGINEERING · QUALITY · RELIABILITY
+<div><strong>RUBBER</strong> MATERIAL KNOWLEDGE</div>
+<div><strong>CUSTOM</strong> COMPONENT SOLUTIONS</div>
+<div><strong>INDUSTRIAL</strong> APPLICATION FOCUS</div>
 </div>
 
 </div>
 </section>
+
+<!-- FEATURE STRIP -->
+
+<div class="feature-strip">
+<div class="container feature-strip-inner">
+<span>● RUBBER MOULDING</span>
+<span>● CUSTOM COMPONENTS</span>
+<span>● MATERIAL SELECTION</span>
+<span>● INDUSTRIAL SOLUTIONS</span>
+</div>
+</div>
 
 <!-- ABOUT -->
 
-<section class="intro" id="about">
-<div class="container intro-grid">
+<section class="section" id="about">
+<div class="container about-grid">
 
-<div>
-<div class="section-label">01 / THE COMPANY</div>
-<h2>Built on precision.<br><span>Driven by quality.</span></h2>
+<div class="about-image reveal">
+<div class="about-image-box">
+<strong>SEALWORK</strong>
+<span>Focused on rubber moulding and industrial component solutions.</span>
+</div>
 </div>
 
-<div>
-<p class="intro-text">
-SEALWORK TECHNOLOGIES focuses on manufacturing rubber moulded components designed for real-world industrial requirements.
-<br><br>
-We believe that dependable components begin with attention to detail. From understanding the application to maintaining consistency through production, our approach is based on precision, responsibility and reliable service.
-<br><br>
-Our objective is simple: to become a trusted manufacturing partner for every customer we work with.
+<div class="about-copy reveal">
+
+<div class="eyebrow">ABOUT SEALWORK TECHNOLOGIES</div>
+
+<h2 class="section-title">
+A manufacturing partner built around <span>precision.</span>
+</h2>
+
+<div class="gold-line"></div>
+
+<p>
+SEALWORK TECHNOLOGIES is focused on rubber moulding and the development of rubber components for industrial applications.
 </p>
+
+<p>
+We understand that every rubber component has a purpose. Whether it is sealing, cushioning, insulation, vibration control or protection, material selection and component design play an important role in its performance.
+</p>
+
+<p>
+Our approach is based on understanding customer requirements, considering application conditions and focusing on consistent manufacturing practices.
+</p>
+
+<div class="about-points">
+<div class="about-point">Application-focused thinking</div>
+<div class="about-point">Material awareness</div>
+<div class="about-point">Custom requirement support</div>
+<div class="about-point">Customer communication</div>
 </div>
 
+</div>
 </div>
 </section>
 
-<!-- SERVICES -->
+<!-- MATERIALS -->
 
-<section class="capabilities" id="capabilities">
+<section class="section materials" id="materials">
 <div class="container">
 
-<div class="section-heading">
-<div>
-<div class="section-label">02 / OUR CAPABILITIES</div>
-<h2>Rubber solutions for<br><span>industrial applications.</span></h2>
-</div>
-
-<p>
-Focused manufacturing support for components where fit, function and repeatability matter.
+<div class="center-heading reveal">
+<div class="eyebrow">RUBBER MATERIAL KNOWLEDGE</div>
+<h2 class="section-title">The right material for <span>the right application.</span></h2>
+<p class="section-description">
+Different applications require different rubber properties. The following are common elastomer families used in industrial rubber components. Final selection depends on operating conditions and technical specifications.
 </p>
 </div>
 
-<div class="cards">
+<div class="material-grid">
 
-<div class="card">
-<div class="card-number">01 / COMPONENTS</div>
-<div class="card-icon">◉</div>
-<h3>Rubber Moulded Components</h3>
-<p>
-Precision-focused rubber moulded components developed around functional and application requirements.
+<div class="material-card reveal">
+<div class="material-code">MATERIAL 01</div>
+<h3>Natural Rubber (NR)</h3>
+<p>Known for elasticity, resilience and abrasion resistance. Commonly considered for flexible components, cushioning and vibration-related applications.</p>
+</div>
+
+<div class="material-card reveal">
+<div class="material-code">MATERIAL 02</div>
+<h3>EPDM Rubber</h3>
+<p>Offers weathering, ozone and water resistance. Often used in outdoor sealing, automotive weather seals and water-related applications.</p>
+</div>
+
+<div class="material-card reveal">
+<div class="material-code">MATERIAL 03</div>
+<h3>NBR Rubber</h3>
+<p>Known for oil and fuel resistance in suitable grades. Commonly used for seals, gaskets and components exposed to petroleum-based fluids.</p>
+</div>
+
+<div class="material-card reveal">
+<div class="material-code">MATERIAL 04</div>
+<h3>Silicone Rubber</h3>
+<p>Available in grades designed for wide temperature performance. Used in selected electrical, industrial, food-contact and sealing applications.</p>
+</div>
+
+<div class="material-card reveal">
+<div class="material-code">MATERIAL 05</div>
+<h3>Neoprene (CR)</h3>
+<p>Offers a balance of weather, ozone and moderate oil resistance. Used in selected industrial seals, covers and flexible components.</p>
+</div>
+
+<div class="material-card reveal">
+<div class="material-code">MATERIAL 06</div>
+<h3>SBR Rubber</h3>
+<p>Commonly used where abrasion resistance and general-purpose rubber properties are important, depending on the formulation.</p>
+</div>
+
+<div class="material-card reveal">
+<div class="material-code">MATERIAL 07</div>
+<h3>FKM / Fluoroelastomer</h3>
+<p>Specialist elastomer family used in demanding chemical, oil and higher-temperature environments, subject to grade compatibility.</p>
+</div>
+
+<div class="material-card reveal">
+<div class="material-code">MATERIAL 08</div>
+<h3>Butyl Rubber (IIR)</h3>
+<p>Known for low gas permeability and good weather resistance. Used in selected sealing and insulation-related applications.</p>
+</div>
+
+<div class="material-card reveal">
+<div class="material-code">MATERIAL 09</div>
+<h3>Custom Rubber Compounds</h3>
+<p>Rubber formulations can be selected or developed around required hardness, flexibility, temperature and environmental conditions.</p>
+</div>
+
+</div>
+
+<p class="material-note">
+Material availability and processing capability must be confirmed against the actual manufacturing setup and customer specification.
 </p>
-</div>
-
-<div class="card">
-<div class="card-number">02 / INDUSTRIAL</div>
-<div class="card-icon">⬡</div>
-<h3>Industrial Rubber Parts</h3>
-<p>
-Practical rubber components for industrial equipment, assemblies and machinery applications.
-</p>
-</div>
-
-<div class="card">
-<div class="card-number">03 / SEALING</div>
-<div class="card-icon">◎</div>
-<h3>Industrial Sealing Solutions</h3>
-<p>
-Rubber sealing components designed to support dependable performance and application needs.
-</p>
-</div>
-
-</div>
 
 </div>
 </section>
 
-<!-- APPROACH -->
+<!-- INDUSTRIES -->
 
-<section class="approach" id="approach">
-<div class="container approach-grid">
+<section class="section industries" id="industries">
+<div class="container">
 
-<div>
-<div class="section-label">03 / OUR APPROACH</div>
-<h2>Quality is not a finishing touch.<br><span>It starts at the brief.</span></h2>
-</div>
+<div class="eyebrow">INDUSTRIES WE SERVE</div>
 
-<div>
+<h2 class="section-title">
+Supporting a wide range of <span>industrial applications.</span>
+</h2>
 
-<p class="approach-intro">
-Every requirement is different. We focus on understanding what the component needs to do and keeping attention on fit, consistency and communication.
+<p class="section-description" style="color:#b4c0cc">
+Rubber components play an important role in sealing, insulation, vibration control, protection and equipment performance across multiple sectors.
 </p>
 
-<div class="point">
+<div class="industry-grid">
+
+<div class="industry-card reveal">
+<div class="industry-icon">⚙</div>
+<h3>Automotive</h3>
+<p>Sealing, cushioning, vibration control and protective rubber component applications.</p>
+</div>
+
+<div class="industry-card reveal">
+<div class="industry-icon">⌁</div>
+<h3>Electrical & Electronics</h3>
+<p>Insulation-related, protective and sealing applications using suitable rubber grades.</p>
+</div>
+
+<div class="industry-card reveal">
+<div class="industry-icon">▤</div>
+<h3>General Engineering</h3>
+<p>Industrial equipment components, seals, buffers and flexible rubber parts.</p>
+</div>
+
+<div class="industry-card reveal">
+<div class="industry-icon">⌂</div>
+<h3>Construction</h3>
+<p>Weather sealing, cushioning and selected rubber protection applications.</p>
+</div>
+
+<div class="industry-card reveal">
+<div class="industry-icon">✣</div>
+<h3>Agriculture</h3>
+<p>Rubber components for selected agricultural machinery and equipment applications.</p>
+</div>
+
+<div class="industry-card reveal">
+<div class="industry-icon">◈</div>
+<h3>Oil & Gas</h3>
+<p>Sealing applications requiring careful material and chemical compatibility selection.</p>
+</div>
+
+<div class="industry-card reveal">
+<div class="industry-icon">✚</div>
+<h3>Pharmaceutical</h3>
+<p>Selected sealing applications where appropriate material grades and compliance are specified.</p>
+</div>
+
+<div class="industry-card reveal">
+<div class="industry-icon">▦</div>
+<h3>Industrial Machinery</h3>
+<p>Protective, sealing and vibration-related rubber components for machinery systems.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- PRODUCTS -->
+
+<section class="section products" id="products">
+<div class="container">
+
+<div class="eyebrow">OUR PRODUCT RANGE</div>
+
+<h2 class="section-title">Rubber components for <span>multiple requirements.</span></h2>
+
+<p class="section-description">
+Explore common types of rubber moulded components and industrial rubber products. Actual product range depends on tooling, drawings and manufacturing capabilities.
+</p>
+
+<div class="product-grid">
+
+<div class="product-card reveal">
+<div class="product-image">◎</div>
+<div class="product-content">
+<h3>Rubber O-Rings</h3>
+<p>Ring-shaped sealing components used in suitable static and dynamic sealing applications.</p>
+<a href="#contact">ENQUIRE ABOUT THIS ↗</a>
+</div>
+</div>
+
+<div class="product-card reveal">
+<div class="product-image">◉</div>
+<div class="product-content">
+<h3>Rubber Gaskets</h3>
+<p>Custom-shaped sealing components designed around mating surfaces and application requirements.</p>
+<a href="#contact">ENQUIRE ABOUT THIS ↗</a>
+</div>
+</div>
+
+<div class="product-card reveal">
+<div class="product-image">⬡</div>
+<div class="product-content">
+<h3>Rubber Seals</h3>
+<p>Sealing components used to help prevent leakage and protect assemblies from external elements.</p>
+<a href="#contact">ENQUIRE ABOUT THIS ↗</a>
+</div>
+</div>
+
+<div class="product-card reveal">
+<div class="product-image">◍</div>
+<div class="product-content">
+<h3>Rubber Bushes</h3>
+<p>Rubber components used in selected mounting, cushioning and vibration isolation applications.</p>
+<a href="#contact">ENQUIRE ABOUT THIS ↗</a>
+</div>
+</div>
+
+<div class="product-card reveal">
+<div class="product-image">◌</div>
+<div class="product-content">
+<h3>Rubber Grommets</h3>
+<p>Protective rubber components used around openings, edges and cable pass-through points.</p>
+<a href="#contact">ENQUIRE ABOUT THIS ↗</a>
+</div>
+</div>
+
+<div class="product-card reveal">
+<div class="product-image">⬢</div>
+<div class="product-content">
+<h3>Custom Moulded Parts</h3>
+<p>Application-specific rubber components based on customer drawings, samples or technical requirements.</p>
+<a href="#contact">ENQUIRE ABOUT THIS ↗</a>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- MANUFACTURING CAPABILITIES -->
+
+<section class="section capabilities">
+<div class="container capability-grid">
+
+<div class="capability-image reveal"></div>
+
+<div class="reveal">
+
+<div class="eyebrow">MANUFACTURING CAPABILITIES</div>
+
+<h2 class="section-title">
+From requirement to <span>rubber component.</span>
+</h2>
+
+<p class="section-description">
+A well-defined manufacturing process begins with a clear understanding of the component, its application and its performance expectations.
+</p>
+
+<div class="capability-list">
+
+<div class="capability-item">
 <span>01</span>
 <div>
-<h3>Understand the Application</h3>
-<p>We begin by understanding the intended use and component requirement.</p>
+<h3>Requirement Understanding</h3>
+<p>Reviewing the intended application, drawings, samples and component requirements.</p>
 </div>
 </div>
 
-<div class="point">
+<div class="capability-item">
 <span>02</span>
 <div>
-<h3>Focus on the Details</h3>
-<p>Dimensions, material considerations and functional expectations matter.</p>
+<h3>Material Consideration</h3>
+<p>Considering hardness, temperature, chemical exposure and other operating conditions.</p>
 </div>
 </div>
 
-<div class="point">
+<div class="capability-item">
 <span>03</span>
 <div>
-<h3>Build Dependable Relationships</h3>
-<p>Clear communication and responsible follow-through at every step.</p>
+<h3>Component Development</h3>
+<p>Working around component geometry, tooling considerations and functional needs.</p>
+</div>
+</div>
+
+<div class="capability-item">
+<span>04</span>
+<div>
+<h3>Quality Focus</h3>
+<p>Attention to dimensional requirements, visual quality and consistency expectations.</p>
 </div>
 </div>
 
 </div>
+</div>
+</div>
+</section>
+
+<!-- WHY CHOOSE US -->
+
+<section class="section why-us">
+<div class="container">
+
+<div class="center-heading">
+<div class="eyebrow">WHY SEALWORK TECHNOLOGIES</div>
+<h2 class="section-title">A focused approach to <span>rubber manufacturing.</span></h2>
+<p class="section-description">
+A dependable business relationship is built through clear requirements, technical understanding and responsible communication.
+</p>
+</div>
+
+<div class="why-grid">
+
+<div class="why-card reveal">
+<span>01 / FOCUS</span>
+<h3>Application First</h3>
+<p>Understanding the working conditions and purpose of the component.</p>
+</div>
+
+<div class="why-card reveal">
+<span>02 / MATERIALS</span>
+<h3>Material Awareness</h3>
+<p>Recognizing the importance of material properties and grade selection.</p>
+</div>
+
+<div class="why-card reveal">
+<span>03 / SUPPORT</span>
+<h3>Customer Communication</h3>
+<p>Clear discussion of drawings, specifications and project expectations.</p>
+</div>
+
+<div class="why-card reveal">
+<span>04 / QUALITY</span>
+<h3>Consistency Mindset</h3>
+<p>Keeping component quality and repeatability central to the process.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- PROCESS -->
+
+<section class="section process">
+<div class="container">
+
+<div class="eyebrow">HOW WE WORK</div>
+
+<h2 class="section-title">A clear path from <span>idea to enquiry.</span></h2>
+
+<div class="process-grid">
+
+<div class="process-card reveal">
+<span>01</span>
+<h3>Share Your Requirement</h3>
+<p>Send us your drawing, sample details or application description.</p>
+</div>
+
+<div class="process-card reveal">
+<span>02</span>
+<h3>Technical Discussion</h3>
+<p>Discuss material, dimensions, environment and performance needs.</p>
+</div>
+
+<div class="process-card reveal">
+<span>03</span>
+<h3>Requirement Review</h3>
+<p>Review feasibility and relevant manufacturing considerations.</p>
+</div>
+
+<div class="process-card reveal">
+<span>04</span>
+<h3>Next Steps</h3>
+<p>Discuss the appropriate way forward for your requirement.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- CTA -->
+
+<section class="cta">
+<div class="container cta-inner">
+<div>
+<h2>Have a rubber component requirement?</h2>
+<p>Let's discuss your drawing, sample or industrial application.</p>
+</div>
+<button class="btn" onclick="openPopup()">SEND AN ENQUIRY ↗</button>
 </div>
 </section>
 
 <!-- CONTACT -->
 
-<section class="contact" id="contact">
+<section class="section contact" id="contact">
 <div class="container contact-grid">
 
 <div>
+<div class="eyebrow">CONTACT SEALWORK TECHNOLOGIES</div>
 
-<div class="section-label">04 / GET IN TOUCH</div>
+<h2 class="section-title">
+Let's build the right <span>rubber solution.</span>
+</h2>
 
-<h2>Let's discuss<br><span>your requirement.</span></h2>
-
-<p class="contact-info">
-Looking for a rubber moulding partner?
-Share your requirement with our team. We will be glad to hear from you.
+<p class="contact-description">
+Connect with SEALWORK TECHNOLOGIES for rubber moulding enquiries, industrial components, material discussions and custom requirements.
 </p>
 
-<a href="tel:+918149002309" class="contact-link">
-<small>CALL OUR TEAM</small>
-+91 81490 02309 ↗
-</a>
+<div class="contact-detail">
+<small>PHONE / WHATSAPP</small>
+<a href="tel:+918149002309">+91 81490 02309</a>
+</div>
 
-<a href="mailto:sealworktechnologies@gmail.com" class="contact-link">
-<small>EMAIL US</small>
-sealworktechnologies@gmail.com ↗
-</a>
+<div class="contact-detail">
+<small>EMAIL</small>
+<a href="mailto:sealworktechnologies@gmail.com">sealworktechnologies@gmail.com</a>
+</div>
+
+<div class="contact-detail">
+<small>BUSINESS</small>
+SEALWORK TECHNOLOGIES
+</div>
 
 </div>
 
-<form class="contact-form" onsubmit="sendEnquiry(event)">
+<form class="contact-form" onsubmit="sendEnquiry(event,this)">
 
-<h3>Send an Enquiry</h3>
+<h3>Request a Business Enquiry</h3>
 
-<input type="text" id="name" placeholder="Your Name" required>
+<input type="text" name="name" placeholder="Your Full Name" required>
 
-<input type="text" id="company" placeholder="Company Name">
+<input type="text" name="company" placeholder="Company Name">
 
-<input type="email" id="email" placeholder="Email Address" required>
+<input type="email" name="email" placeholder="Business Email Address" required>
 
-<textarea id="message" placeholder="Tell us about your requirement..." required></textarea>
+<input type="tel" name="phone" placeholder="Phone Number">
 
-<button class="primary-btn" type="submit">
-SEND ENQUIRY ↗
-</button>
+<select name="interest" required>
+<option value="">Select Your Requirement</option>
+<option>Rubber Moulded Components</option>
+<option>Rubber Seals and Gaskets</option>
+<option>Rubber Materials</option>
+<option>Custom Rubber Parts</option>
+<option>Industrial Requirement</option>
+<option>Other Enquiry</option>
+</select>
+
+<textarea name="message" placeholder="Describe your requirement, material, quantity or application..." required></textarea>
+
+<button type="submit" class="btn btn-gold">SUBMIT ENQUIRY ↗</button>
+
+<p style="font-size:10px;color:#89939d;margin-top:12px">
+Your email application will open with your enquiry details.
+</p>
 
 </form>
-
 </div>
 </section>
 
 <!-- FOOTER -->
 
-<footer>
-<div class="container footer-content">
+<footer class="footer">
+<div class="container">
 
-<div>
-<div class="logo" style="color:white">
+<div class="footer-grid">
+
+<div class="footer-brand">
+<div class="logo">
+<div class="logo-symbol">S</div>
+<div class="logo-text" style="color:white">
 SEALWORK <span>TECHNOLOGIES</span>
-<small style="color:#8794a2">ENGINEERED TO PERFORM</small>
+<small style="color:#8d9aa7">ENGINEERED TO PERFORM</small>
 </div>
 </div>
 
-<div>
-<a href="#top">BACK TO TOP ↑</a>
-<p>© <span id="year"></span> SEALWORK TECHNOLOGIES. ALL RIGHTS RESERVED.</p>
+<p>
+Rubber moulding and industrial rubber component solutions with an application-focused approach.
+</p>
+</div>
+
+<div class="footer-col">
+<h4>QUICK LINKS</h4>
+<a href="#home">Home</a>
+<a href="#about">About Company</a>
+<a href="#materials">Rubber Materials</a>
+<a href="#industries">Industries</a>
+</div>
+
+<div class="footer-col">
+<h4>OUR SOLUTIONS</h4>
+<a href="#products">Rubber O-Rings</a>
+<a href="#products">Rubber Gaskets</a>
+<a href="#products">Rubber Seals</a>
+<a href="#products">Custom Components</a>
+</div>
+
+<div class="footer-col">
+<h4>CONTACT</h4>
+<a href="tel:+918149002309">+91 81490 02309</a>
+<a href="mailto:sealworktechnologies@gmail.com">Send Email</a>
+<a href="#contact">Business Enquiry</a>
+</div>
+
+</div>
+
+<div class="footer-bottom">
+<span>© <span id="year"></span> SEALWORK TECHNOLOGIES. ALL RIGHTS RESERVED.</span>
+<span>PRECISION · QUALITY · PERFORMANCE</span>
 </div>
 
 </div>
 </footer>
 
+<!-- ENQUIRY POPUP -->
+
+<div class="popup-overlay" id="popupOverlay" onclick="closePopupOutside(event)">
+<div class="popup">
+
+<button class="popup-close" onclick="closePopup()">×</button>
+
+<div class="eyebrow">LET'S CONNECT</div>
+
+<h3>Discuss Your Requirement</h3>
+
+<p>
+Looking for rubber moulded components or industrial rubber solutions? Send us your details.
+</p>
+
+<form onsubmit="sendEnquiry(event,this)">
+
+<input type="text" name="name" placeholder="Your Name" required>
+
+<input type="email" name="email" placeholder="Your Email" required>
+
+<input type="text" name="company" placeholder="Company Name">
+
+<textarea name="message" placeholder="Tell us about your requirement..." required></textarea>
+
+<button type="submit" class="btn btn-gold submit">SEND ENQUIRY ↗</button>
+
+</form>
+</div>
+</div>
+
+<!-- FLOATING CONTACT -->
+
+<div class="float-contact">
+<a href="tel:+918149002309" title="Call Us">☎</a>
+<a href="mailto:sealworktechnologies@gmail.com" title="Email Us">✉</a>
+</div>
+
 <script>
 
+/* MOBILE MENU */
+
 function toggleMenu() {
-  document.getElementById("navigation").classList.toggle("open");
+document.getElementById("navLinks").classList.toggle("active");
 }
 
-document.querySelectorAll("#navigation a").forEach(function(link) {
-  link.addEventListener("click", function() {
-    document.getElementById("navigation").classList.remove("open");
-  });
+document.querySelectorAll(".nav-links a").forEach(link=>{
+link.addEventListener("click",()=>{
+document.getElementById("navLinks").classList.remove("active");
 });
+});
+
+/* FOOTER YEAR */
 
 document.getElementById("year").textContent = new Date().getFullYear();
 
-function sendEnquiry(event) {
-  event.preventDefault();
+/* SCROLL REVEAL */
 
-  const name = document.getElementById("name").value;
-  const company = document.getElementById("company").value;
-  const email = document.getElementById("email").value;
-  const message = document.getElementById("message").value;
-
-  const subject = encodeURIComponent("Website Enquiry from " + name);
-
-  const body = encodeURIComponent(
-    "Name: " + name + "\n" +
-    "Company: " + company + "\n" +
-    "Email: " + email + "\n\n" +
-    "Requirement: " + message
-  );
-
-  window.location.href =
-    "mailto:sealworktechnologies@gmail.com?subject=" +
-    subject + "&body=" + body;
+const revealObserver = new IntersectionObserver((entries)=>{
+entries.forEach(entry=>{
+if(entry.isIntersecting){
+entry.target.classList.add("visible");
+revealObserver.unobserve(entry.target);
 }
+});
+},{threshold:0.12});
+
+document.querySelectorAll(".reveal").forEach(element=>{
+revealObserver.observe(element);
+});
+
+/* POPUP */
+
+function openPopup() {
+document.getElementById("popupOverlay").classList.add("active");
+document.body.style.overflow="hidden";
+}
+
+function closePopup() {
+document.getElementById("popupOverlay").classList.remove("active");
+document.body.style.overflow="";
+}
+
+function closePopupOutside(event) {
+if(event.target.id==="popupOverlay"){
+closePopup();
+}
+}
+
+document.addEventListener("keydown",event=>{
+if(event.key==="Escape"){
+closePopup();
+}
+});
+
+/* ENQUIRY FORM */
+
+function sendEnquiry(event,form) {
+
+event.preventDefault();
+
+const data = new FormData(form);
+
+const name = data.get("name") || "";
+const company = data.get("company") || "";
+const email = data.get("email") || "";
+const phone = data.get("phone") || "";
+const interest = data.get("interest") || "";
+const message = data.get("message") || "";
+
+const subject = encodeURIComponent(
+"Business Enquiry - " + name
+);
+
+const body = encodeURIComponent(
+"Name: "+name+"\n"+
+"Company: "+company+"\n"+
+"Email: "+email+"\n"+
+"Phone: "+phone+"\n"+
+"Requirement: "+interest+"\n\n"+
+"Message:\n"+message
+);
+
+window.location.href =
+"mailto:sealworktechnologies@gmail.com?subject="+
+subject+"&body="+body;
+}
+
+/* POPUP AUTO OPEN AFTER DELAY */
+
+let popupShown = false;
+
+window.addEventListener("scroll",()=>{
+if(!popupShown && window.scrollY > 900){
+popupShown=true;
+openPopup();
+}
+});
 
 </script>
 
